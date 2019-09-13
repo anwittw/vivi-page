@@ -1,0 +1,86 @@
+/* CSS (Cascading Style Sheets) is used to decide HOW things on our webpage look like */
+
+/* Example Importing a google Font from https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background-color: black;
+  color: white; 
+}
+
+.black {
+
+}
+
+header {
+  text-align: center;
+  background-color: black;
+}
+
+header img {
+  width: 300px;
+}
+
+header p {
+  font-size: 24px;
+  font-weight: 700;
+  color: green;
+  text-align: right;
+  padding: 15px;
+  margin-right: 35px;
+  margin-bottom: 0;
+}
+
+#section-rapper {
+  margin-top: 20px;
+  background-color: black;;
+}
+
+#rapper {
+  height: 700px;
+  background-image: url(img/rapper_headline.jpg);
+  background-position: center top;
+  background-size: cover;
+}
+
+.white-shadow {
+  box-shadow: 5px 9px 16px 5px rgba(255,255,255,1);
+}
+
+.music-box {
+  font-weight: 700; 
+  font-size: 56px;
+}
+
+.rapper-container{
+padding-left: 20px;
+ height: 100%; 
+ width: 50%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+
+#get-tickets {
+  margin-top: 60px;
+}
+
+#get-tickets button {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#rappers img {
+  width: 100%;
+}
+
+#rappers p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.logo-container {
+  display: flex;
+}
